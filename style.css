@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+
+
+header {
+    text-align: center;
+    background-color: black;
+}
+
+header img {
+    width: 60vw;
+    height: 40vh;
+}
+
+.titre {
+    margin: 15px;
+    font-size: 50px;
+}
+
+.identity {
+    padding-top: 15px;
+    height: auto;
+    text-align: center;
+    border: black 1px solid;
+    color: #FFE81F;
+    background-color: black;
+    padding-bottom:200px;
+}
+
+.identity p {
+    margin-top: 10px;
+}
+
+#tableau {
+    margin-top: 50px;
+    border: 1px solid #FFE81F;
+    font-size: 30px;
+    background-color: black;
+    color: #FFE81F;;
+}
+
+footer {
+    height: 30px;
+    text-align: center;
+    color: #FFE81F;
+    background-color: black;
+    margin-bottom: 0;
+}
