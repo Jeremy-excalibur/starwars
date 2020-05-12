@@ -2,21 +2,35 @@
     margin: 0;
 }
 
-
-
 header {
     text-align: center;
     background-color: black;
+    background-image: url("https://lh3.googleusercontent.com/proxy/Q8S3GRfubvnz0AofVNpj2yGaABht_KIWWKN_0jIDspzAhtObargaKkp_j1q8B4_idSAIGLnA-B74cQiiTftBOmpUloBXCr_bsQoawuE5aFIaEorxbERTlmg");
 }
 
 header img {
-    width: 60vw;
+    width: 50vw;
     height: 40vh;
 }
 
-.titre {
+.title {
     margin: 15px;
     font-size: 50px;
+}
+
+.regle {
+    font-size: 35px;
+}
+
+/* DANS LE TABLEAU */
+#bordure {
+    
+    padding: 15px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: 1px solid #FFE81F; ;
 }
 
 .identity {
@@ -27,24 +41,64 @@ header img {
     color: #FFE81F;
     background-color: black;
     padding-bottom:200px;
+    background-image: url("https://lh3.googleusercontent.com/proxy/Q8S3GRfubvnz0AofVNpj2yGaABht_KIWWKN_0jIDspzAhtObargaKkp_j1q8B4_idSAIGLnA-B74cQiiTftBOmpUloBXCr_bsQoawuE5aFIaEorxbERTlmg");
 }
 
 .identity p {
     margin-top: 10px;
 }
 
+#nom {
+    margin-bottom: 20px;
+}
+
+#bordure img {
+    width: 400px;
+    height: 500px;
+}
+
+#episode {
+    font-size: 20px;
+}
+
+#realisateur {
+    font-size: 20px;
+}
+
+#resume {
+    font-size: 20px;
+    color: white;
+}
+
+#dateDeSortie {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* BUTTON */
 #tableau {
     margin-top: 50px;
     border: 1px solid #FFE81F;
     font-size: 30px;
     background-color: black;
-    color: #FFE81F;;
+    color: #FFE81F;
+    cursor: pointer;
 }
 
+/* FOOTER */
 footer {
     height: 30px;
     text-align: center;
     color: #FFE81F;
     background-color: black;
-    margin-bottom: 0;
+    background-image: url("https://lh3.googleusercontent.com/proxy/Q8S3GRfubvnz0AofVNpj2yGaABht_KIWWKN_0jIDspzAhtObargaKkp_j1q8B4_idSAIGLnA-B74cQiiTftBOmpUloBXCr_bsQoawuE5aFIaEorxbERTlmg");
 }
+
+
+
+
+
+
+
+
+
